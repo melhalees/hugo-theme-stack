@@ -72,3 +72,5 @@ footer:
         
     designedBy:
         other:  "قالب {{ .Theme }} مصمم من {{ .DesignedBy }}"
+    editedBy:
+        other: "تم تعديلة من {{ .EditedBy }}"

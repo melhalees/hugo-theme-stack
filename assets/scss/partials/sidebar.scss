@@ -164,6 +164,13 @@
             display: unset;
         }
     }
+    .left-sidebar {
+        header {
+            .site-logo {
+                border: 3px solid var(--accent-color);
+            }
+        }
+    }
 }
 
 #dark-mode-toggle {

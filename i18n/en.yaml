@@ -71,3 +71,5 @@ footer:
 
     designedBy:
         other: Theme {{ .Theme }} designed by {{ .DesignedBy }}
+    editedBy:
+        other: Edited by {{ .EditedBy }}
