@@ -74,3 +74,6 @@ footer:
         other:  "قالب {{ .Theme }} مصمم من {{ .DesignedBy }}"
     editedBy:
         other: "تم تعديلة من {{ .EditedBy }}"
+
+siteIsUnderConstruction:
+    other: الموقع قيد الانشاء
