@@ -7,6 +7,9 @@
     <body class="{{ block `body-class` . }}{{ end }}">
         {{- partial "head/colorScheme" . -}}
 
+        <!-- Site is under construction -->
+        {{- partial "head/under-construction.html" . -}}
+
         {{/* The container is wider when there's any activated widget */}}
         {{- $hasWidget := false -}}
         {{- range .Site.Params.widgets -}}
